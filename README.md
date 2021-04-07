@@ -11,7 +11,6 @@ Next, create the environment. Do this however you like, but I have found it easi
 
 ```
 cd brentlab_utils # assuming your one directory up from this
-# the cmd below will create the virtual environment in a directory called envs in the current dir
 conda create -p ./envs --file requirements.txt
 ```
 Next, activate the environment:
