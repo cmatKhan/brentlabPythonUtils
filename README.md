@@ -7,7 +7,7 @@ cd /to/your/source_code_directory
 git clone <the url to this repo>
 ```
 
-Next, create the environment. Do this however you like, but I have found it easiest (for development) to store the environment in the actual package directory (suggested in the conda docs). To build the environment in the current directory, do this:
+Next, create the environment. Do this however you like, but I have found it easiest (for development) to store the environment in the package source directory (suggested in the conda docs). To build the environment in the current directory, do this:
 
 ```
 cd brentlab_utils # assuming you're one directory up from this
