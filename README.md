@@ -42,4 +42,4 @@ If you add a package to the environment, update both the setup.py (if, for examp
 ```
 conda list --explicit > requirements.txt
 ```
-Before pushing a new environment, make sure that it actually works by re-loading the environment using the ```conda create``` code in the installation guide above.
+Before pushing a new requirements.txt, make sure that it actually works by re-loading the environment using the ```conda create``` code in the installation guide above.
