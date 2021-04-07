@@ -10,7 +10,7 @@ git clone <the url to this repo>
 Next, create the environment. Do this however you like, but I have found it easiest to store the environment in the actual package directory (actually, suggested in the conda docs, but very buried). To build the environment in the current directory, do this:
 
 ```
-cd brentlab_utils # assuming your one directory up from this
+cd brentlab_utils # assuming you're one directory up from this
 conda create -p ./envs --file requirements.txt
 ```
 Next, activate the environment:
