@@ -34,3 +34,12 @@ gene_conversion.translateGeneIdentifiers('scerevisiae', 'ENTREZGENE_ACC', ["YDR1
 5    855883  ARF family GTPase; component of the COPII vesi...  YPL218W            1           6    SAR1  ENSG,ENSP  query_1
 6    856442  Inositol monophosphatase; involved in biosynth...  YHR046C            1           7    INM1  ENSG,ENSP  query_1
 ```
+
+# for further development
+Add to one of the 'submodules', eg gene_conversion or rnaseq, or create a new directory for some other collection of tools. Please comment all functions and classes with reStructuredText docstrings (if you don't know what this means, ask) so as to be compliant with the automatic documentation. Inline comments are encouraged, but not required, while docstrings should be considered mandatory.
+
+If you add a package to the environment, update both the setup.py (if, for example, you were to add the package 'foo', you'll add 'foo' to the setup.py packages: entry) and the conda environment description, requirements.txt. To update requirements.txt, do this:
+```
+conda list --explicit > requirements.txt
+```
+Before pushing a new environment, make sure that it actually works by re-loading the environment using the ```conda create``` code in the installation guide above.
